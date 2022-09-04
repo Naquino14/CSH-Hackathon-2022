@@ -1,0 +1,71 @@
+﻿.sidenav ::deep {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: rgba(0, 35, 102, .5);
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.5s;
+    overflow: hidden;
+    padding-left: 0;
+}
+
+.sidenav_button ::deep {
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    background-color: transparent;
+    border: none;
+    font-size: 50px;
+    transition: 0.5s;
+    color: #660000;
+    margin-top: 14px;
+}
+
+.sidenav_title ::deep {
+    color: white;
+    margin-top: 5px;
+}
+
+.sidenav_links ::deep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    white-space: nowrap;
+}
+
+.sidenav_space ::deep {
+    margin-top: 30px;
+}
+
+.sidenav_space2 ::deep {
+    margin-top: 200px;
+}
+
+.sidenav_separator ::deep {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 85%;
+    background-color: #fff;
+    height: 2px;
+}
+
+.sidenav_link ::deep {
+    color: #fff;
+    font-size: 30px;
+}
+
+.sidenav_link :hover ::deep {
+    color: #808080;
+}
+
+.sidenav_footer ::deep {
+    align-self: center;
+    color: #b5b5b5;
+    font-size: 12px;
+}

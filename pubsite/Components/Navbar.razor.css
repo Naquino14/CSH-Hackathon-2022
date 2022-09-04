@@ -1,0 +1,12 @@
+﻿.navbar ::deep {
+    background-color: #e6e6e6;
+    width: 100vw;
+    height: 15%;
+    opacity: 50%;
+}
+
+.navbar_name ::deep {
+    color: rgba(0, 0, 0, 50);
+    font-size: 70px;
+    margin: auto;
+}

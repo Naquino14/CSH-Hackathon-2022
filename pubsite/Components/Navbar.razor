@@ -1,0 +1,10 @@
+﻿<div class="navbar">
+    <div class="navbar_name fancyblox">
+        Nathaniel Aquino
+    </div>
+</div>
+
+@code {
+    public bool SidenavState { get; private set; }
+    public void DisplaySidenav() => SidenavState = !SidenavState;
+}

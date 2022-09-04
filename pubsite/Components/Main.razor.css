@@ -1,0 +1,6 @@
+﻿.main ::deep {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(102,0,0);
+    background: linear-gradient(90deg, rgba(102,0,0,1) 0%, rgba(0,35,102,1) 69%);
+}

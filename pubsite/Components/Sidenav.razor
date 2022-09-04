@@ -1,0 +1,32 @@
+﻿<div class="sidenav" style="
+@(State ? "width: 300px; padding-left: 0px"
+    : "width: 0px; padding-left: 0px")">
+    <div class="sidenav_links">
+        <h1 class="sidenav_title fancykarma">Welcome!</h1>
+        <p class="sidenav_space"/>
+        <a class="nostyle sidenav_link fancykarma" href="https://github.com/naquino14">GitHub</a>
+        <hr class="sidenav_separator"/>
+        <a class="nostyle sidenav_link fancykarma" href="aboutme">About Me</a>
+        <hr class="sidenav_separator"/>
+        <a class="nostyle sidenav_link fancykarma" href="#">Projects</a>
+        <hr class="sidenav_separator" />
+        <a class="nostyle sidenav_link fancykarma" href="#">Contact Me</a>
+        <hr class="sidenav_separator" />
+        <a class="nostyle sidenav_link fancykarma" href="https://github.com/Naquino14/CSH-Hackathon-2022">Source Code</a>
+        <p class="sidenav_space2"/>
+        <p class="sidenav_footer">Hey there! Im built with ASP.NET Razor Pages!</p>
+    </div>
+</div>
+<button @onclick="Toggle" class="sidenav_button" style="
+    @(State ? "float: left; margin-left: 245px;"
+        : "margin-left: 15px")">
+    @(State ? "X" : "<")
+</button>
+
+@code {
+    public bool State { get; set; }
+
+    public void Close() => State = false;
+    public void Open() => State = true;
+    public void Toggle() => State = !State;
+}
