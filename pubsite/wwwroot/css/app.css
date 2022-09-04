@@ -1,5 +1,4 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
-@import url('../assets/Blox2.ttf');
 
 @font-face {
     font-family: 'Blox2';
@@ -9,6 +8,31 @@
 @font-face {
     font-family: 'KarmaFuture';
     src: url('../assets/KarmaFuture.ttf')
+}
+
+.aboutmeimg {
+    background-image: url(../assets/blobaboutmecover3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    background-position: center;
+    /* i cant put the img props in another css class???*/
+}
+
+.projectsimg {
+    background-image: url(../assets/blobprojectscover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    background-position: center;
+}
+
+.githubimg {
+    background-image: url(../assets/blobgithubcover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    background-position: center;
 }
 
 a.nostyle {

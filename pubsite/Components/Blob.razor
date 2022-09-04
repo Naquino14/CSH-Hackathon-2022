@@ -1,0 +1,19 @@
+﻿<div class="blob
+    @(isHover ? "blob_hover" : "blob_nohover")
+    @(ImageStyle ?? "")" 
+    onclick="" 
+    @onmouseover="HoverOn" 
+    @onmouseout="HoverOff">
+    <div class="@(isHover ? "blob_label-enabled" : "blob_label-disabled")">
+        <div class="blob_label-child">@(Label ?? "")</div>
+    </div>
+</div>
+
+@code {
+    [Parameter] public string? Label { get; set; }
+    [Parameter] public string? ImageStyle { get; set; }
+    [Parameter] public string? Link { get; set; }
+    private void HoverOn() => isHover = true;
+    private void HoverOff() => isHover = false;
+    private bool isHover = false;
+}

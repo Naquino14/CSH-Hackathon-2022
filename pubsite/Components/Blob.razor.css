@@ -1,0 +1,47 @@
+﻿.blob ::deep {
+    width: 400px;
+    height: 400px;
+    /*background-color: black;*/
+    margin: 40px;
+    border-radius: 30px;
+    border-width: 6px;
+    border-color: rgb(0, 0, 0, .2);
+    border-style: solid;
+    transition: .3s;
+}
+
+.blob_hover ::deep {
+    transform: scale(1.1);
+}
+
+.blob_nohover ::deep {
+    transform: scale(1);
+}
+
+
+.blob_label ::deep {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.blob_label-enabled ::deep {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(135, 135, 135, .8);
+    border-radius: 22px;
+}
+
+.blob_label-child ::deep {
+    width: auto;
+    padding-top: 30%;
+    color: #fff;
+    font-size: 80px;
+    font-family: karmafuture;
+}
+
+.blob_label-disabled {
+    display: none;
+}

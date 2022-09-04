@@ -9,4 +9,5 @@
     color: rgba(0, 0, 0, 50);
     font-size: 70px;
     margin: auto;
+    overflow: hidden;
 }
