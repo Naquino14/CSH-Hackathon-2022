@@ -3,17 +3,17 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:64199",
-      "sslPort": 44396
+      "applicationUrl": "http://localhost:25742",
+      "sslPort": 44337
     }
   },
   "profiles": {
-    "pubsite": {
+    "PublicSite": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
-      "applicationUrl": "https://localhost:7293;http://localhost:5293",
+      "applicationUrl": "https://localhost:7114;http://localhost:5114",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

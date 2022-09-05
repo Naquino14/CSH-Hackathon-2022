@@ -10,6 +10,14 @@
     src: url('../assets/KarmaFuture.ttf')
 }
 
+.home-bg {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(102,0,0);
+    background: linear-gradient(90deg, rgba(102,0,0,1) 0%, rgba(0,35,102,1) 69%);
+    overflow-x: hidden;
+}
+
 .aboutmeimg {
     background-image: url(../assets/blobaboutmecover3.png);
     background-repeat: no-repeat;
@@ -41,11 +49,11 @@ a.nostyle {
     cursor: auto;
 }
 
-a.nostyle :visited {
-    text-decoration: inherit;
-    color: inherit;
-    cursor: auto;
-}
+    a.nostyle :visited {
+        text-decoration: inherit;
+        color: inherit;
+        cursor: auto;
+    }
 
 .fancyblox {
     font-family: Blox2;
